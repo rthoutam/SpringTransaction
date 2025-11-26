@@ -1,6 +1,6 @@
-package com.javatechie.repository;
+package com.javaLearn.repository;
 
-import com.javatechie.entity.AuditLog;
+import com.javaLearn.entity.AuditLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AuditLogRepository  extends JpaRepository<AuditLog,Long> {

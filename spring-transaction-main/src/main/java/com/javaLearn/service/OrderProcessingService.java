@@ -1,8 +1,8 @@
-package com.javatechie.service;
+package com.javaLearn.service;
 
-import com.javatechie.entity.Order;
-import com.javatechie.entity.Product;
-import com.javatechie.handler.*;
+import com.javaLearn.entity.Order;
+import com.javaLearn.entity.Product;
+import com.javaLearn.handler.*;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;

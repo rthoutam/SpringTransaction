@@ -1,11 +1,11 @@
-package com.javatechie.controller;
+package com.javaLearn.controller;
 
-import com.javatechie.entity.Order;
-import com.javatechie.service.OrderProcessingService;
-import com.javatechie.service.isolation.ReadCommittedDemo;
-import com.javatechie.service.isolation.ReadUncommittedDemo;
-import com.javatechie.service.isolation.RepeatableReadDemo;
-import com.javatechie.service.isolation.SerializableIsolationDemo;
+import com.javaLearn.entity.Order;
+import com.javaLearn.service.OrderProcessingService;
+import com.javaLearn.service.isolation.ReadCommittedDemo;
+import com.javaLearn.service.isolation.ReadUncommittedDemo;
+import com.javaLearn.service.isolation.RepeatableReadDemo;
+import com.javaLearn.service.isolation.SerializableIsolationDemo;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

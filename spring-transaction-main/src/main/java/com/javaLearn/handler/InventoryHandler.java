@@ -1,7 +1,7 @@
-package com.javatechie.handler;
+package com.javaLearn.handler;
 
-import com.javatechie.entity.Product;
-import com.javatechie.repository.InventoryRepository;
+import com.javaLearn.entity.Product;
+import com.javaLearn.repository.InventoryRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

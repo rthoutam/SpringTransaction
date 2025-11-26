@@ -1,8 +1,8 @@
-package com.javatechie.handler;
+package com.javaLearn.handler;
 
-import com.javatechie.entity.AuditLog;
-import com.javatechie.entity.Order;
-import com.javatechie.repository.AuditLogRepository;
+import com.javaLearn.entity.AuditLog;
+import com.javaLearn.entity.Order;
+import com.javaLearn.repository.AuditLogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

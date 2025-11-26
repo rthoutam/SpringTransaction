@@ -1,4 +1,4 @@
-package com.javatechie;
+package com.javaLearn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

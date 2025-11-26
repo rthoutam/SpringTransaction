@@ -1,6 +1,6 @@
-package com.javatechie.service.isolation;
+package com.javaLearn.service.isolation;
 
-import com.javatechie.service.ProductService;
+import com.javaLearn.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

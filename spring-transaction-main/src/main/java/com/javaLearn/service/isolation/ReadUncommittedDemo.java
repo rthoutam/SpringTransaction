@@ -1,18 +1,17 @@
-package com.javatechie.service.isolation;
+package com.javaLearn.service.isolation;
 
-import com.javatechie.service.ProductService;
+import com.javaLearn.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ReadCommittedDemo {
+public class ReadUncommittedDemo {
 
     @Autowired
     private ProductService productService;
 
-    public void testReadCommitted(int id) throws InterruptedException {
+    public void testReadUncommitted(int id) throws InterruptedException {
 
-        //50-> 5
         // Start Transaction A (Thread 1) to update the stock but not commit, then roll back
         Thread threadA = new Thread(() -> {
             try {
@@ -23,7 +22,6 @@ public class ReadCommittedDemo {
         });
 
         // Start Transaction B (Thread 2) to read the stock
-        //50
         Thread threadB = new Thread(() -> {
             try {
                 Thread.sleep(2000);  // Wait a moment to ensure Thread A starts and holds the transaction

@@ -1,13 +1,12 @@
-package com.javatechie.service;
+package com.javaLearn.service;
 
-import com.javatechie.entity.Product;
-import com.javatechie.repository.InventoryRepository;
+import com.javaLearn.entity.Product;
+import com.javaLearn.repository.InventoryRepository;
 import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.transaction.interceptor.TransactionAspectSupport;
 
 @Component
 public class ProductService {
